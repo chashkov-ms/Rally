@@ -1,0 +1,11 @@
+.\objects\led_control.o: User\led_control.c
+.\objects\led_control.o: .\Lib\led_control.h
+.\objects\led_control.o: .\Lib\Common_types.h
+.\objects\led_control.o: .\Lib\CMSIS\stm32f0xx.h
+.\objects\led_control.o: .\Lib\CMSIS\stm32f030x6.h
+.\objects\led_control.o: .\Lib\CMSIS\core_cm0.h
+.\objects\led_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led_control.o: .\Lib\CMSIS\cmsis_version.h
+.\objects\led_control.o: .\Lib\CMSIS\cmsis_compiler.h
+.\objects\led_control.o: .\Lib\CMSIS\cmsis_armcc.h
+.\objects\led_control.o: .\Lib\CMSIS\system_stm32f0xx.h

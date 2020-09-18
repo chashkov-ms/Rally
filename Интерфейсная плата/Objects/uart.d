@@ -1,0 +1,11 @@
+.\objects\uart.o: User\uart.c
+.\objects\uart.o: .\Lib\uart.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: .\Lib\CMSIS\stm32f030x6.h
+.\objects\uart.o: .\Lib\CMSIS\core_cm0.h
+.\objects\uart.o: .\Lib\CMSIS\cmsis_version.h
+.\objects\uart.o: .\Lib\CMSIS\cmsis_compiler.h
+.\objects\uart.o: .\Lib\CMSIS\cmsis_armcc.h
+.\objects\uart.o: .\Lib\CMSIS\system_stm32f0xx.h
+.\objects\uart.o: .\Lib\Common_types.h
+.\objects\uart.o: .\Lib\main.h

@@ -1,0 +1,45 @@
+Dependencies for Project 'Interface_Plate_for_STM32F030xx', Target 'Interface_Plate_Firmware': (DO NOT MODIFY !)
+F (.\User\main.c)(0x5E1EA788)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Lib -I .\Lib\CMSIS-I.\RTE\_Interface_Plate_Firmware-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x6-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Lib\main.h)(0x5E183D4F)
+I (.\Lib\Common_types.h)(0x5E16C063)
+I (.\Lib\CMSIS\stm32f030x6.h)(0x59787BBE)
+I (.\Lib\CMSIS\core_cm0.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB87F2)
+I (.\Lib\CMSIS\cmsis_version.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_compiler.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_armcc.h)(0x5D259EC6)
+I (.\Lib\CMSIS\system_stm32f0xx.h)(0x59787BBE)
+I (.\Lib\uart.h)(0x5E1C0624)
+I (.\Lib\interrupt.h)(0x5E211B77)
+F (.\User\uart.c)(0x5E25038E)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Lib -I .\Lib\CMSIS-I.\RTE\_Interface_Plate_Firmware-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x6-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\Lib\uart.h)(0x5E1C0624)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB87F2)
+I (.\Lib\CMSIS\stm32f030x6.h)(0x59787BBE)
+I (.\Lib\CMSIS\core_cm0.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_version.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_compiler.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_armcc.h)(0x5D259EC6)
+I (.\Lib\CMSIS\system_stm32f0xx.h)(0x59787BBE)
+I (.\Lib\Common_types.h)(0x5E16C063)
+I (.\Lib\main.h)(0x5E183D4F)
+F (.\User\interrupt.c)(0x5E212271)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Lib -I .\Lib\CMSIS-I.\RTE\_Interface_Plate_Firmware-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x6-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (.\Lib\interrupt.h)(0x5E211B77)
+I (.\Lib\CMSIS\stm32f030x6.h)(0x59787BBE)
+I (.\Lib\CMSIS\core_cm0.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB87F2)
+I (.\Lib\CMSIS\cmsis_version.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_compiler.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_armcc.h)(0x5D259EC6)
+I (.\Lib\CMSIS\system_stm32f0xx.h)(0x59787BBE)
+I (.\Lib\Common_types.h)(0x5E16C063)
+I (.\Lib\uart.h)(0x5E1C0624)
+F (RTE\Device\STM32F030K6Tx\startup_stm32f030x6.s)(0x5E044CAA)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Interface_Plate_Firmware-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F030x6 SETA 1"--list .\listings\startup_stm32f030x6.lst --xref -o .\objects\startup_stm32f030x6.o --depend .\objects\startup_stm32f030x6.d)
+F (RTE\Device\STM32F030K6Tx\system_stm32f0xx.c)(0x59787BBE)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Lib -I .\Lib\CMSIS-I.\RTE\_Interface_Plate_Firmware-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Mavrinsky\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F030x6-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (.\Lib\CMSIS\stm32f0xx.h)(0x59787BBE)
+I (.\Lib\CMSIS\stm32f030x6.h)(0x59787BBE)
+I (.\Lib\CMSIS\core_cm0.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB87F2)
+I (.\Lib\CMSIS\cmsis_version.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_compiler.h)(0x5D259EC6)
+I (.\Lib\CMSIS\cmsis_armcc.h)(0x5D259EC6)
+I (.\Lib\CMSIS\system_stm32f0xx.h)(0x59787BBE)
